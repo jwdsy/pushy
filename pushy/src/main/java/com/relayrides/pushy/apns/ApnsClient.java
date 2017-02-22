@@ -328,7 +328,7 @@ public class ApnsClient {
      *
      * @since 0.6
      */
-    protected void setMetricsListener(final ApnsClientMetricsListener metricsListener) {
+    public void setMetricsListener(final ApnsClientMetricsListener metricsListener) {
         this.metricsListener = metricsListener != null ? metricsListener : new NoopMetricsListener();
     }
 
